@@ -25,5 +25,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Test unit tests
+        run: npm test
   eslint:
     uses: homebridge/.github/.github/workflows/eslint.yml@latest
